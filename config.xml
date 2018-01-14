@@ -93,4 +93,8 @@
         <variable name="APP_ID" value="1455239151263568" />
         <variable name="APP_NAME" value="Tella" />
     </plugin>
+  <plugin name="cordova-android-support-gradle-release" source="npm">
+        <variable name="ANDROID_SUPPORT_VERSION" value="26.+" />
+    </plugin>
+
 </widget>
