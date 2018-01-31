@@ -1,6 +1,6 @@
 webpackJsonp([7],{
 
-/***/ 289:
+/***/ 301:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21,18 +21,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var EnterAddressPageModule = (function () {
     function EnterAddressPageModule() {
     }
+    EnterAddressPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__enter_address__["a" /* EnterAddressPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__enter_address__["a" /* EnterAddressPage */]),
+            ],
+        })
+    ], EnterAddressPageModule);
     return EnterAddressPageModule;
 }());
-EnterAddressPageModule = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
-        declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__enter_address__["a" /* EnterAddressPage */],
-        ],
-        imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__enter_address__["a" /* EnterAddressPage */]),
-        ],
-    })
-], EnterAddressPageModule);
 
 //# sourceMappingURL=enter-address.module.js.map
 
