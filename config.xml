@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="au.com.tellainhouse" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-   <name>Tella</name>
+    <name>Tella</name>
     <description>Instant Payments</description>
-    <author email="tella@theparcelpeople.com.au" href="http://tella.com.au">Tella</author>
+    <author email="tella@theparcelpeople.com.au" href="http://tella.com.au/">Tella</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -19,7 +19,6 @@
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
-    <preference name="android-build-tool" value=gradle" />
     <platform name="android">
         <allow-intent href="market:*" />
         <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
@@ -77,24 +76,22 @@
         <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
         <splash height="2732" src="resources/ios/splash/Default@2x~universal~anyany.png" width="2732" />
     </platform>
-    <plugin name="ionic-plugin-keyboard" source="npm" />
-    <plugin name="cordova-plugin-whitelist" source="npm" />
-    <plugin name="cordova-plugin-device" source="npm" />
-    <plugin name="cordova-plugin-splashscreen" source="npm" />
-    <plugin name="cordova-plugin-ionic-webview" source="npm" />
-    <plugin name="phonegap-plugin-barcodescanner" source="npm">
-       <variable name="CAMERA_USAGE_DESCRIPTION" value="We use the Camera to Scan Barcodes" />
+    <plugin name="ionic-plugin-keyboard" spec="~2.2.1" />
+    <plugin name="cordova-plugin-whitelist" spec="1.3.1" />
+    <plugin name="cordova-plugin-device" spec="1.1.4" />
+    <plugin name="cordova-plugin-splashscreen" spec="~4.0.1" />
+    <plugin name="cordova-plugin-ionic-webview" spec="^1.1.11" />
+    <engine name="android" spec="^6.4.0" />
+    <engine name="ios" spec="^4.4.0" />
+    <plugin name="cordova-plugin-geolocation" spec="^2.4.3">
+        <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="Find deals near you" />
     </plugin>
-    <plugin name="cordova-plugin-stripe" source="npm" />
-    <plugin name="cordova-plugin-geolocation" source="npm">
-        <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="To show deals in your area" />
+    <plugin name="cordova-android-support-gradle-release" spec="^1.1.5">
+        <variable name="ANDROID_SUPPORT_VERSION" value="24.+" />
     </plugin>
-    <plugin name="cordova-plugin-facebook4" source="npm">
-        <variable name="APP_ID" value="1455239151263568" />
-        <variable name="APP_NAME" value="Tella" />
+    <plugin name="phonegap-plugin-barcodescanner" spec="^6.0.8">
+        <variable name="CAMERA_USAGE_DESCRIPTION" value=" " />
     </plugin>
-  <plugin name="cordova-android-support-gradle-release" source="npm">
-        <variable name="ANDROID_SUPPORT_VERSION" value="26.+" />
-    </plugin>
-
+    <plugin name="cordova-plugin-compat" spec="^1.1.0" />
+    <plugin name="cordova-plugin-file" spec="^4.3.3" />
 </widget>
