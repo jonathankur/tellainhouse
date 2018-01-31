@@ -1,6 +1,6 @@
 webpackJsonp([10],{
 
-/***/ 298:
+/***/ 295:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21,18 +21,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var CheckoutPageModule = (function () {
     function CheckoutPageModule() {
     }
-    CheckoutPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__checkout__["a" /* CheckoutPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__checkout__["a" /* CheckoutPage */]),
-            ],
-        })
-    ], CheckoutPageModule);
     return CheckoutPageModule;
 }());
+CheckoutPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__checkout__["a" /* CheckoutPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__checkout__["a" /* CheckoutPage */]),
+        ],
+    })
+], CheckoutPageModule);
 
 //# sourceMappingURL=checkout.module.js.map
 
