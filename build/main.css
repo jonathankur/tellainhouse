@@ -25909,9 +25909,9 @@ page-handy {
 
 page-handy ion-content.content {
   left: 15%;
-  top: 15%;
+  top: 25%;
   width: 70%;
-  height: 70%;
+  height: 50%;
   border-radius: 10px;
 }
 
