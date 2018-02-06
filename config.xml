@@ -95,7 +95,4 @@
     </plugin>
     <plugin name="cordova-plugin-stripe" spec="^1.5.3" />
     <plugin name="cordova-plugin-inappbrowser" spec="^2.0.2" />
-<edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
-    <string>We only use the camera to scan barcodes</string>
-</edit-config>
 </widget>
